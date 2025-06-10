@@ -1,0 +1,48 @@
+MediGuide E-Doctor - Quick Start Guide
+This repository contains the fine-tuned tiiuae/falcon-rw-1b model and a Python script (inference_tester.py) for an interactive medical guidance chatbot.
+
+The model provides preliminary, text-based advice in a professional tone, always disclaiming that it's not a substitute for professional diagnosis.
+
+🚀 Get Started in 5 Steps:
+Prerequisites
+Python 3.8+
+
+Git
+
+GPU (Recommended): For faster inference. CPU fallback is available but will be slow.
+
+Step 1: Clone the Repository
+Download all project files by running this command in your terminal:
+
+git clone https://github.com/lxzy8/mediguide.git
+
+Step 2: Navigate to the Project Directory
+Move into the cloned folder:
+
+cd mediguide
+
+Step 3: Install Required Libraries
+Install the Python dependencies:
+
+pip install torch transformers peft bitsandbytes accelerate
+
+Step 4: Run the Inference Script
+Launch the interactive chatbot:
+
+python inference_tester.py
+
+Step 5: Interact with the Model
+The model will load (may take a few minutes).
+
+Type your medical questions at the Your Question: prompt.
+
+Press Enter to get a response.
+
+Type exit and press Enter to quit.
+
+Important Notes:
+GPU Recommended: Script defaults to GPU. Falls back to CPU if no compatible GPU is found (CPU inference is very slow).
+
+Model Size: This is a 1-billion parameter model, requiring significant RAM (especially GPU VRAM).
+
+Disclaimer: Responses are for informational purposes only. Always consult a healthcare professional for medical concerns.
