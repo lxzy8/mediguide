@@ -17,10 +17,8 @@ library_name: peft
 
 
 
-- **Developed by:** [More Information Needed]
-- **Funded by [optional]:** [More Information Needed]
-- **Shared by [optional]:** [More Information Needed]
-- **Model type:** [More Information Needed]
+- **Developed by:** Khushal 
+- **Model type:** falcon 
 - **Language(s) (NLP):** [More Information Needed]
 - **License:** [More Information Needed]
 - **Finetuned from model [optional]:** [More Information Needed]
